@@ -1,0 +1,31 @@
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column; /* 设置菜单项垂直排列 */
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f0f0f0; /* 设置背景颜色为灰色 */
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #ddd; /* 设置鼠标悬停时的背景颜色 */
+}
+
+.add {
+  color: green;
+}
+
+.remove {
+  color: red;
+}
+
+.modify {
+  color: blue;
+}
